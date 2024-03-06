@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 1.6rem;
+    
+    background-color: white;
+  }
+
+
+  nav img {
+    object-fit: cover;
+    width: 80px;
+  }
+
+ 
+
+  .firstContent h1 {
+    padding-top: 20px;
+    color: #275791;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+ 
+  .banner {
+    width: 100%;
+    display: flex;
+  }
+
+  .banner img {
+    object-fit: cover;
+   width: 1000px;
+  }
+
+  .icons {
+    display: flex;
+   padding-top: 4px;
+   gap: 50px;
+   /* justify-content: space-between; */
+   
+  }
+
+ .icons img {
+width: 80px;
+ }
+
+  .form {
+    padding-top: 5.5rem;
+  
+  }
+
+
+ 
+  .rodape {
+    background-color: #c9e0ff;
+    height: 10rem;
+    display: flex;
+   
+  }
+
+  .rodape p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
