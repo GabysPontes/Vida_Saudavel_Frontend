@@ -15,19 +15,6 @@ body {
   background-color: white;
 }
 
-/* .nav {
-    background-color: #c9e0ff;
-    width: 100%;
-    height: 10rem;
-  }
-
-  .nav img {
-    object-fit: cover;
-    width: 100px;
-    margin-left: 1rem;
-  } */
-
-
 
 .titleDiv {
   height: 50rem;
@@ -50,7 +37,7 @@ body {
 
 .titleDiv p {
   font-size: x-large;
-  
+
 }
 
 .textsContent {
@@ -92,15 +79,15 @@ body {
 
 .icons {
   display: flex;
- 
   gap: 90px;
-  margin-right: 10rem;
-  padding-top: 3em;
-
+ 
 }
 
+
+
 .icons img {
-  width: 150px;
+  width: 100px;
+
 }
 
 .icons p {
@@ -120,32 +107,73 @@ body {
 
 
 .rodape {
-  background-color: #c9e0ff;
+  background-color: lightsteelblue;
   /* display: flex;
   align-items: center;
   justify-content: space-between; */
 }
 
 
-
-.pRodape p {
+.termos {
+  gap: 20px;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 
+}
+
+.prefeitura h1 {
+  margin-left: 4rem;
+  font-family: "Cinzel", serif;
+}
+
+.prefeitura {
+  margin-left: 1rem;
+  padding-top: 3rem;
+}
+
+.prefeitura-content {
+  margin-left: 1rem;
+}
+
+.content-rodape {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.app-form {
+  display: flex;
+  width: 50%;
+  /* margin: 0 auto; */
+}
+
+
+.rodape-form {
+  margin-right: 6rem;
+  width: 40rem;
 
 }
 
 
-/* .prefeitura {
-    display: flex;
-    flex-direction: row;
-} */
-
-
-#jumb {
-  background-color: transparent;
+.rodape-form h1 {
+  font-family: "Cinzel", serif;
+  padding-top: 2.5rem;
+  margin-left: 8rem;
 }
+
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content img {
+  width: 120px;
+}
+
 
 .modal-button {
   border: none;
@@ -156,3 +184,34 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .termos {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .content-rodape img {
+    width: 150px;
+  }
+
+
+  .icons img {
+    width: 150px;
+  }
+}
